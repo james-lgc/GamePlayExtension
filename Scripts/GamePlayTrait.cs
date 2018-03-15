@@ -9,5 +9,5 @@ using DSA.Extensions.Base;
 [System.Serializable]
 public abstract class GamePlayTrait : TraitBase
 {
-	public override ExtensionEnum.Extension Extension { get { return ExtensionEnum.Extension.GamePlay; } }
+	public override ExtensionEnum Extension { get { return ExtensionEnum.GamePlay; } }
 }

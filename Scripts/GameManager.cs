@@ -10,7 +10,7 @@ namespace DSA.Extensions.GamePlay
 	[System.Serializable]
 	public class GameManager : ManagerBase
 	{
-		public override ExtensionEnum.Extension Extension { get { return ExtensionEnum.Extension.GamePlay; } }
+		public override ExtensionEnum Extension { get { return ExtensionEnum.GamePlay; } }
 
 		public enum GameState { PlayMode, UIMode };
 		[SerializeField] private GameState currentState;
